@@ -2834,7 +2834,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.5.5"
     generate-license-file: "npm:^4.1.1"
     globals: "npm:^17.3.0"
-    openpgp: "npm:^6.3.0"
+    openpgp: "npm:^6.3.2"
     prettier: "npm:^3.8.1"
     typescript: "npm:^5.9.3"
     vitest: "npm:^4.0.18"
@@ -3670,10 +3670,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "openpgp@npm:6.3.0"
-  checksum: 10/61b4819a166779c32ba8575f36da13ca28d4dc7ad366fe96b3ec7921dce97cb748ce0dbd75b3e483cbe571a338734a8b7faa79c62c35d891c30a3e583911bc02
+"openpgp@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "openpgp@npm:6.3.2"
+  peerDependencies:
+    "@openpgp/web-stream-tools": ~0.3.0
+  peerDependenciesMeta:
+    "@openpgp/web-stream-tools":
+      optional: true
+  checksum: 10/42ea7f45fd04685750c968e26ad6c3b65a41eb2c3ee82c7c82bc3f016fb4f3be119b8b2e81b76df4e0f57d3e131276925ea95c0799e9fb91666f2b61f487703a
   languageName: node
   linkType: hard
 
